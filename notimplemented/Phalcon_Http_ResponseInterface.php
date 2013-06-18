@@ -5,7 +5,4 @@ setHeaders
 setCookies
 getCookies
 setEtag
-setJsonContent
 isSent
-sendCookies
-setFileToSend

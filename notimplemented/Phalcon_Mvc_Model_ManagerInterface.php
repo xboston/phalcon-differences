@@ -17,9 +17,10 @@ keepSnapshots
 isKeepingSnapshots
 useDynamicUpdate
 isUsingDynamicUpdate
-addHasManyThrough
+addHasManyToMany
 getRelationByAlias
 getRelationRecords
 getReusableRecords
 setReusableRecords
 clearReusableObjects
+__destruct
