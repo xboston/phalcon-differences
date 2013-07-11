@@ -18,9 +18,14 @@ isKeepingSnapshots
 useDynamicUpdate
 isUsingDynamicUpdate
 addHasManyToMany
+existsHasManyToMany
 getRelationByAlias
 getRelationRecords
 getReusableRecords
 setReusableRecords
 clearReusableObjects
+getHasManyToMany
+registerNamespaceAlias
+getNamespaceAlias
+getNamespaceAliases
 __destruct

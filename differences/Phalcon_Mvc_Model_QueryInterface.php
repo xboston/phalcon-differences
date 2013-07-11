@@ -7,6 +7,6 @@
 Phalcon\Mvc\Model\QueryInterface::
 	__construct($phql);
 Phalcon\Mvc\Model\Query::
-	__construct($phql = null);
+	__construct($phql = null, $dependencyInjector = null);
 
 
