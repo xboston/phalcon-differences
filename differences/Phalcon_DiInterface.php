@@ -13,7 +13,7 @@ Phalcon\Di::
 Phalcon\DiInterface::
 	offsetGet($offset);
 Phalcon\Di::
-	offsetGet($name);
+	offsetGet($name, $parameters = null);
 
 
 Phalcon\DiInterface::

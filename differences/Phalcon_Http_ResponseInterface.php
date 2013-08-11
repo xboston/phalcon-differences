@@ -10,3 +10,9 @@ Phalcon\Http\Response::
 	setJsonContent($content, $jsonOptions = null);
 
 
+Phalcon\Http\ResponseInterface::
+	setFileToSend($filePath, $attachmentName = null);
+Phalcon\Http\Response::
+	setFileToSend($filePath, $attachmentName = null, $attachment = null);
+
+

@@ -1,5 +1,6 @@
 diff: Phalcon\Mvc\Dispatcher > Phalcon\Mvc\DispatcherInterface(not implemented)
 
+getControllerClass
 __construct
 setModuleName
 getModuleName
@@ -9,3 +10,4 @@ getDefaultNamespace
 getActiveMethod
 setReturnedValue
 wasForwarded
+getHandlerClass

@@ -9,3 +9,4 @@ getDefaultNamespace
 getActiveMethod
 setReturnedValue
 wasForwarded
+getHandlerClass
