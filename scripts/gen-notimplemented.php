@@ -49,7 +49,7 @@ foreach ($phalconInterfaces as $phalconInterface) {
     $classNotImplemented = array_diff_key($interfaceMethods, $classMethods);
     if (count($classNotImplemented) > 0) {
 
-        $fileName = sprintf('notimplemented/%s.php', $phalconClass);
+        $fileName = sprintf('/notimplemented/%s.php', $phalconClass);
         $fileName = str_replace('\\', '_', $fileName);
 
         $fileBody = sprintf("diff: %s > %s(not implemented)\n\n", $phalconInterface, $phalconClass);
@@ -62,7 +62,7 @@ foreach ($phalconInterfaces as $phalconInterface) {
     $interfaceNotImplemented = array_diff_key($classMethods, $interfaceMethods);
     if (count($interfaceNotImplemented)) {
 
-        $fileName = sprintf('notimplemented/%s.php', $phalconInterface);
+        $fileName = sprintf('/notimplemented/%s.php', $phalconInterface);
         $fileName = str_replace('\\', '_', $fileName);
 
         $fileBody = sprintf("diff: %s > %s(not implemented)\n\n", $phalconClass, $phalconInterface);

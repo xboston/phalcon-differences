@@ -1,0 +1,15 @@
+diff: Phalcon\Mvc\Router > Phalcon\Mvc\RouterInterface(not implemented)
+
+__construct
+getRewriteUri
+setUriSource
+removeExtraSlashes
+setDefaultNamespace
+getDefaultNamespace
+getDefaultModule
+getDefaultController
+getDefaultAction
+getDefaults
+mount
+notFound
+getNamespaceName
